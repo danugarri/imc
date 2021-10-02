@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>IMC CALCULATOR</title>
+    
+</head>
+<body>
+    <main>
+        <h1>IMC</h1>
+        <div id="result"></div>
+        <form>
+            <label for="weight">Introduce tu peso en kilos</label>
+            <input name="weight" type="number" placeholder="Kg" autofocus/>
+            <label for="height">Introduce tu altura en cent&iacute;metros</label>
+            <input name="height" type="number" placeholder="cm"/>
+            <input type="submit" value="Enviar"/>
+        </form>   
+        <!--showing scale-->
+        <section id="scale-imc"></section>
+    </main>
+
+    <script src="form.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

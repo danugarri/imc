@@ -1,0 +1,18 @@
+body{
+    background-color: cadetblue;
+}
+main{
+    border:2px black solid;
+    text-align:center;
+    margin:10%;
+    padding-bottom:20px;
+    background-color: rgb(118, 156, 156);
+}        
+label{
+    display:block
+}
+input[type="submit"]{
+    display:block;
+    margin:10px auto 10px auto;
+
+}
