@@ -56,6 +56,12 @@ const scaleArray=
             setScale()
             }
         }
+       else if(inputHeight<=0 && inputWeight<=0){
+        swal('Introduce los datos correctos')
+        console.log('No has introducido un valor válido')
+        //reseting user input
+        formulario.reset()
+        }
         else {
             swal('Introduce los datos correctos')
             console.log('No has introducido un valor válido')
