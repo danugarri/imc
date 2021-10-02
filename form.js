@@ -34,7 +34,8 @@ const scaleArray=
 
         //validating user input
         //if the input has more than 3 digit that means the input is incorrect because nobody can has in their weight or height more than 3 digits
-        if( inputHeight.length<=3 && inputWeight.length<=3){
+        if( (inputHeight.length<=3 && inputHeight.length>2) && inputWeight.length<=3){
+            //height must have more than 2 digits
             if(inputHeight===''||inputWeight===''){
                 swal('Te falta por introducir un dato')
                 formulario.reset()
